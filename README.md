@@ -6,7 +6,16 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<!---
-chichinliu/chichinliu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Yilan 591 Rentals
+
+`yilan_rentals.py` fetches new rental listings posted today on the 591 web site for Yilan county.
+
+### Usage
+
+```bash
+pip install -r requirements.txt
+python yilan_rentals.py
+```
+
+**Note**: The 591 web site may block automated scraping. You may receive HTTP
+403 errors without proper headers or authentication.
