@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="專業講師 - 提供優質的教學服務">
+    <title>ChiChin Liu - 專業講師</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">ChiChin Liu</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">首頁</a></li>
+                <li><a href="#about" class="nav-link">關於我</a></li>
+                <li><a href="#courses" class="nav-link">課程</a></li>
+                <li><a href="#testimonials" class="nav-link">學生評價</a></li>
+                <li><a href="#contact" class="nav-link">聯絡我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主視覺區 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">專業講師，陪伴您的學習之旅</h1>
+                <p class="hero-subtitle">提供量身定制的教學方案，幫助您達成學習目標</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">探索課程</a>
+                    <a href="#contact" class="btn btn-secondary">立即諮詢</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">關於我</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg width="200" height="200" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="100" fill="#e0e0e0"/>
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" font-size="24" fill="#666">照片</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>ChiChin Liu</h3>
+                    <p class="about-intro">
+                        擁有多年教學經驗的專業講師，專注於提供高品質的個人化教學服務。
+                        我相信每位學生都有獨特的學習方式，因此致力於為每位學員量身打造最適合的學習計畫。
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-number">5+</div>
+                            <div class="highlight-label">年教學經驗</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">200+</div>
+                            <div class="highlight-label">滿意學生</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-number">98%</div>
+                            <div class="highlight-label">推薦率</div>
+                        </div>
+                    </div>
+                    <div class="expertise">
+                        <h4>專業領域</h4>
+                        <ul>
+                            <li>程式設計教學</li>
+                            <li>資料科學與分析</li>
+                            <li>網頁開發</li>
+                            <li>職涯規劃諮詢</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 課程介紹 -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">課程介紹</h2>
+            <p class="section-subtitle">提供多元化的課程選擇，滿足不同學習需求</p>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">💻</div>
+                    <h3>程式設計基礎</h3>
+                    <p>從零開始學習程式設計，掌握Python、JavaScript等熱門語言</p>
+                    <ul class="course-features">
+                        <li>一對一教學</li>
+                        <li>彈性上課時間</li>
+                        <li>實戰專案練習</li>
+                    </ul>
+                    <div class="course-price">NT$ 1,500 / 小時</div>
+                </div>
+
+                <div class="course-card featured">
+                    <div class="featured-badge">熱門</div>
+                    <div class="course-icon">📊</div>
+                    <h3>資料科學入門</h3>
+                    <p>學習資料分析、視覺化和機器學習基礎概念</p>
+                    <ul class="course-features">
+                        <li>小班制教學</li>
+                        <li>真實資料集練習</li>
+                        <li>證書認證</li>
+                    </ul>
+                    <div class="course-price">NT$ 2,000 / 小時</div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🌐</div>
+                    <h3>網頁開發全端</h3>
+                    <p>前端到後端完整學習，打造專業的網頁應用程式</p>
+                    <ul class="course-features">
+                        <li>完整課程規劃</li>
+                        <li>作品集指導</li>
+                        <li>就業輔導</li>
+                    </ul>
+                    <div class="course-price">NT$ 1,800 / 小時</div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">🎯</div>
+                    <h3>客製化課程</h3>
+                    <p>根據您的特定需求，量身打造專屬學習計畫</p>
+                    <ul class="course-features">
+                        <li>需求分析</li>
+                        <li>靈活安排</li>
+                        <li>持續追蹤</li>
+                    </ul>
+                    <div class="course-price">價格面議</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 學生評價 -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">學生評價</h2>
+            <p class="section-subtitle">聽聽學生們怎麼說</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "老師教學非常有耐心，能夠針對我的問題給予清楚的解釋。
+                        經過三個月的學習，我已經能夠獨立完成簡單的網頁專案了！"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>王小明</strong>
+                        <span>網頁開發課程學員</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "課程內容豐富且實用，老師總是會分享業界的實際經驗，
+                        讓我不只學到技術，更了解如何在工作中應用。"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>李小華</strong>
+                        <span>資料科學課程學員</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "從完全不懂程式到能夠自己寫出應用程式，感謝老師的細心指導。
+                        現在我已經成功轉職成為軟體工程師！"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>陳大為</strong>
+                        <span>程式設計課程學員</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡表單 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">聯絡我</h2>
+            <p class="section-subtitle">有任何問題或想了解更多？歡迎與我聯繫</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@chichinliu.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>電話</h4>
+                            <p>+886 912-345-678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>地點</h4>
+                            <p>台北市，台灣</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>上課時間</h4>
+                            <p>週一至週日 09:00 - 21:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">姓名 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">電話</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="course">感興趣的課程</label>
+                        <select id="course" name="course">
+                            <option value="">請選擇</option>
+                            <option value="programming">程式設計基礎</option>
+                            <option value="data-science">資料科學入門</option>
+                            <option value="web-dev">網頁開發全端</option>
+                            <option value="custom">客製化課程</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">訊息 *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">送出訊息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ChiChin Liu</h4>
+                    <p>專業講師，致力於提供優質的教學服務</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="#home">首頁</a></li>
+                        <li><a href="#about">關於我</a></li>
+                        <li><a href="#courses">課程</a></li>
+                        <li><a href="#contact">聯絡我</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>社群媒體</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ChiChin Liu. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
